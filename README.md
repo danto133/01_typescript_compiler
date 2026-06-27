@@ -114,6 +114,3 @@ var sum = function (a, b) { return a + b; };
    > [!NOTE]<br>
    > Đây chính là cách trực quan nhất để bạn phân biệt sự khác nhau giữa **CommonJS (CJS)** và **ES Modules (ESM)** bằng mắt thường. ESM sử dụng cú pháp chuẩn hóa `import / export` nguyên bản thay vì giả lập bằng `require / exports` của Node.js.
 
----
-
-Chúc bạn hoàn thành xuất sắc thử thách tốt nghiệp Level 1 và tự tin bước sang các level tiếp theo! 🚀
