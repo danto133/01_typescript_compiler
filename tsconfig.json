@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es5", // Dịch code về chuẩn ES5 (để các trình duyệt cũ cũng hiểu)
+        "module": "commonjs", // Sử dụng hệ thống module export/require của Node.js
+        "moduleResolution": "node", // Cách tsc đi tìm các file import
+        "outDir": "./dist", // Nơi chứa file JS sau khi build
+        "rootDir": "./src", // Nơi chứa file TS gốc
+        "strict": true, // Bật chế độ kiểm tra type nghiêm ngặt (bắt buộc phải khai báo kiểu dữ liệu)
+        "esModuleInterop": true, // Giúp import các thư viện CommonJS mượt mà hơn
+        "ignoreDeprecations": "6.0" // Bỏ qua cảnh báo lỗi của phiên bản cũ (vì es5 đã lỗi thời và sẽ ngừng hoạt động trong Typescript 7.0)
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
